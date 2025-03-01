@@ -1,0 +1,48 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Navbar Container */
+.navbar {
+    background-color: bisque; /* Light background color */
+    padding: 40px 50%;
+    display: flex;
+    align-items: center;
+    /* justify-content: flex-end; */
+}
+
+
+
+/* Navigation Links */
+.nav-links {
+    list-style: none;
+    display: flex;  /* Makes the list items appear in a row */
+    gap: 30px;  /* Adds space between links */
+}
+
+/* Ensure <li> items are inline */
+.nav-links li {
+    display: inline-block;
+}
+
+/* Style for Links */
+.nav-links a {
+    text-decoration: none;
+    color: blue;
+    font-size: 28px;
+    transition: 0.3s;
+    display: inline-block;
+    
+}
+
+.nav-links a:hover {
+    color: red; 
+}
+
+.Nav {
+    box-shadow: 10;
+    display: inline-block;
+}
